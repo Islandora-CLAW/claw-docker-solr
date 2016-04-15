@@ -1,7 +1,7 @@
 FROM islandora-claw/tomcat
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
-LABEL "License"="GPLv3" \
+LABEL "License"="MIT" \
       "Version"="0.0.1"
 
 ARG SOLR_VERSION="4.10.4"
