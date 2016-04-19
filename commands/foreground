@@ -18,6 +18,6 @@ main() {
 # TOMCAT_ADMIN_PASSWORD: $password
 #########################################################
 EOF
-    docker run --rm -p $port:8080 -e TOMCAT_ADMIN_PASSWORD=$password islandora-claw/solr
+    docker run --rm -p $port:8080 -e TOMCAT_ADMIN_PASSWORD=$password islandora/claw-solr
 }
 main "$@"

@@ -1,9 +1,9 @@
 # Islandora CLAW: Solr Docker Image
 
-[![Docker Stars](https://img.shields.io/docker/stars/islandora-claw/solr.svg)](https://hub.docker.com/r/islandora-claw/solr/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/islandora-claw/solr.svg)](https://hub.docker.com/r/islandora-claw/solr/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/islandora-claw/solr/latest.svg)](https://imagelayers.io/?images=islandora-claw/solr:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/islandora-claw/solr/latest.svg)](https://imagelayers.io/?images=islandora-claw/solr:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/islandora/claw-solr.svg)](https://hub.docker.com/r/islandora/claw-solr/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/islandora/claw-solr.svg)](https://hub.docker.com/r/islandora/claw-solr/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/islandora/claw-solr/latest.svg)](https://imagelayers.io/?images=islandora/claw-solr:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/islandora/claw-solr/latest.svg)](https://imagelayers.io/?images=islandora/claw-solr:latest)
 
 ### Introduction
 
@@ -27,7 +27,7 @@ Based on the [Tomcat Docker Image](https://github.com/Islandora-CLAW/docker-tomc
 
 **Example:**
 ```bash
-docker build -t islandora-claw/solr .
+docker build -t islandora/claw-solr .
 ```
 
 ### Environment Variables
@@ -39,7 +39,7 @@ Please consult the
 
 **Example (foreground, port 8080, auto-remove):**
 ```bash
-docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora-claw/solr
+docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_password" islandora/claw-solr
 ```
 
 ### Commands
