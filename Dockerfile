@@ -1,4 +1,4 @@
-FROM islandora-claw/tomcat
+FROM islandora/claw-tomcat
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
 LABEL "License"="MIT" \
