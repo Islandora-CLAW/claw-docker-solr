@@ -52,8 +52,7 @@ folder.
 
 ## Notes
 
-Eventually we will support running on either Open JDK or Oracle JDK, but
-for the moment it only supports Open JDK.
+Eventually we will support running on either OpenJDK or Oracle JDK, but for the moment it only supports OpenJDK.
 
 ## Maintainers/Sponsors
 
