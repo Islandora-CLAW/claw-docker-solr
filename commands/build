@@ -1,3 +1,6 @@
 #!/bin/bash
-readonly DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-docker build -t islandora/claw-solr $DIR/..
+readonly ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+docker build -f $ROOT/Dockerfile.oracle-jdk -t islandora/claw-solr:oracle-jdk $ROOT
+docker build -f $ROOT/Dockerfile.open-jdk -t islandora/claw-solr:open-jdk $ROOT
+# Open JDK is the default implementation. 
+docker tag islandora/claw-solr:open-jdk islandora/claw-solr:latest
