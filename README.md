@@ -22,8 +22,7 @@ Based on the [Tomcat Docker Image](https://github.com/Islandora-CLAW/docker-tomc
 | SOLR_VERSION      | no       | 4.10.3                                                       |
 | SOLR_DEPENDENCIES | no       | log4j-1.2.17.jar slf4j-api-1.7.6.jar slf4j-log4j12-1.7.6.jar |
 
-**SOLR_DEPENDENCIES** are the jar files to copy from ```example/lib/ext``` into
-```$CATALINA_HOME/lib```.
+**SOLR_DEPENDENCIES** are the jar files to copy from `example/lib/ext` into `$CATALINA_HOME/lib`.
 
 **Example:**
 ```bash
