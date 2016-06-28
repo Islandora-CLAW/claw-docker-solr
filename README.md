@@ -42,8 +42,7 @@ docker run --rm -ti -p 8080:8080 -e "TOMCAT_ADMIN_PASSWORD=your_super_secure_pas
 
 ## Commands
 
-For convenience a number of commands are provided in the [commands](/commands)
-folder.
+For convenience a number of commands are provided in the [commands](/commands) folder.
 
 | Command    | Arguments               | Defaults    | Notes                                                            |
 |------------|-------------------------|-------------|------------------------------------------------------------------|
@@ -65,7 +64,7 @@ folder.
 * American Philosophical Society
 * common media inc.
 
-Current maintainers:
+## Maintainers
 
 * [Nigel Banks](https://github.com/nigelgbanks)
 * [Nick Ruest](https://github.com/ruebot)
